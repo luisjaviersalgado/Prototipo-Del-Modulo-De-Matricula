@@ -1,0 +1,168 @@
+{
+  "entorno": {
+    "python": "3.12.3",
+    "so": "Linux-6.18.44-fc-v37-x86_64-with-glibc2.39",
+    "nucleos": 1,
+    "estudiantes": 500,
+    "hilos": 50,
+    "cursos_por_estudiante": 5
+  },
+  "corridas": [
+    {
+      "fase_a": {
+        "duracion_s": 4.64,
+        "solicitudes": 3500,
+        "solicitudes_por_s": 754.9,
+        "listar_cursos": {
+          "n": 500,
+          "p50": 59.6,
+          "p95": 79.4,
+          "p99": 89.1,
+          "max": 96.4
+        },
+        "matricular": {
+          "n": 2500,
+          "p50": 63.2,
+          "p95": 98.3,
+          "p99": 172.7,
+          "max": 388.5
+        },
+        "consultar_matriculas": {
+          "n": 500,
+          "p50": 56.8,
+          "p95": 73.6,
+          "p99": 83.5,
+          "max": 91.5
+        },
+        "codigos_matricular": {
+          "201": 2500
+        }
+      },
+      "fase_b": {
+        "duracion_s": 0.73,
+        "solicitudes": 500,
+        "codigos": {
+          "201": 100,
+          "409": 400
+        },
+        "latencia": {
+          "n": 500,
+          "p50": 64.7,
+          "p95": 104.8,
+          "p99": 142.5,
+          "max": 191.2
+        }
+      },
+      "integridad": {
+        "cursos_sobre_cupo": 0,
+        "ocupados_curso_pico": 100,
+        "estudiantes_sobre_20_creditos": 0,
+        "matriculas_activas_total": 2600
+      }
+    },
+    {
+      "fase_a": {
+        "duracion_s": 5.35,
+        "solicitudes": 3500,
+        "solicitudes_por_s": 653.7,
+        "listar_cursos": {
+          "n": 500,
+          "p50": 71.4,
+          "p95": 93.6,
+          "p99": 109.4,
+          "max": 111.6
+        },
+        "matricular": {
+          "n": 2500,
+          "p50": 73.9,
+          "p95": 104.6,
+          "p99": 147.7,
+          "max": 510.3
+        },
+        "consultar_matriculas": {
+          "n": 500,
+          "p50": 67.5,
+          "p95": 85.0,
+          "p99": 104.9,
+          "max": 120.0
+        },
+        "codigos_matricular": {
+          "201": 2500
+        }
+      },
+      "fase_b": {
+        "duracion_s": 0.67,
+        "solicitudes": 500,
+        "codigos": {
+          "201": 100,
+          "409": 400
+        },
+        "latencia": {
+          "n": 500,
+          "p50": 60.6,
+          "p95": 97.3,
+          "p99": 135.4,
+          "max": 162.7
+        }
+      },
+      "integridad": {
+        "cursos_sobre_cupo": 0,
+        "ocupados_curso_pico": 100,
+        "estudiantes_sobre_20_creditos": 0,
+        "matriculas_activas_total": 2600
+      }
+    },
+    {
+      "fase_a": {
+        "duracion_s": 5.25,
+        "solicitudes": 3500,
+        "solicitudes_por_s": 667.1,
+        "listar_cursos": {
+          "n": 500,
+          "p50": 70.7,
+          "p95": 88.8,
+          "p99": 107.6,
+          "max": 110.6
+        },
+        "matricular": {
+          "n": 2500,
+          "p50": 73.1,
+          "p95": 110.4,
+          "p99": 165.0,
+          "max": 294.7
+        },
+        "consultar_matriculas": {
+          "n": 500,
+          "p50": 67.7,
+          "p95": 83.3,
+          "p99": 93.1,
+          "max": 102.8
+        },
+        "codigos_matricular": {
+          "201": 2500
+        }
+      },
+      "fase_b": {
+        "duracion_s": 0.58,
+        "solicitudes": 500,
+        "codigos": {
+          "201": 100,
+          "409": 400
+        },
+        "latencia": {
+          "n": 500,
+          "p50": 52.3,
+          "p95": 80.2,
+          "p99": 105.5,
+          "max": 143.1
+        }
+      },
+      "integridad": {
+        "cursos_sobre_cupo": 0,
+        "ocupados_curso_pico": 100,
+        "estudiantes_sobre_20_creditos": 0,
+        "matriculas_activas_total": 2600
+      }
+    }
+  ]
+}
